@@ -4,7 +4,9 @@
         "backend:install": "cd reactnd-contacts-server && npm install",
         "frontend:build": "cd reactnd-contacts-complete && npm run build",
         "backend:build": "cd reactnd-contacts-server && npm run build",
-        "frontend:deploy":"cd reactnd-contact-complete && npm run build && npm run deploy" 
+        "frontend:deploy": "cd reactnd-contact-complete && npm run build && npm run deploy"
+    },
+    "dependencies": {
+        "yarn": "^1.22.19"
     }
-
 }
